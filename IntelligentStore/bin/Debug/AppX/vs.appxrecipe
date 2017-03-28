@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-VTCFTIJ</Machine>
+    <WindowsUser>Admin</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>F7AB8771560A694604CCDA055C07C2486817492AEE9B4DC44A2ED107FBEDE93F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0e94b114-7ae8-4e42-93db-f59ddc12c21a_1.0.0.0_neutral__2pwahjrv4tj9w</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0e94b114-7ae8-4e42-93db-f59ddc12c21a_2pwahjrv4tj9w!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0e94b114-7ae8-4e42-93db-f59ddc12c21a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=jorken</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-06T15:26:06.615</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\IntelligentStore.exe">
+      <PackagePath>IntelligentStore.exe</PackagePath>
+      <Modified>2016-04-06T15:26:06.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\IntelligentStore.pdb">
+      <PackagePath>IntelligentStore.pdb</PackagePath>
+      <Modified>2016-04-06T15:26:06.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\bg.png">
+      <PackagePath>Images\bg.png</PackagePath>
+      <Modified>2015-12-07T05:27:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\1.jpg">
+      <PackagePath>Images\1.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\10.jpg">
+      <PackagePath>Images\10.jpg</PackagePath>
+      <Modified>2015-12-06T11:29:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\10c.jpg">
+      <PackagePath>Images\10c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\11.jpg">
+      <PackagePath>Images\11.jpg</PackagePath>
+      <Modified>2015-12-06T11:31:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\11c.jpg">
+      <PackagePath>Images\11c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\12.jpg">
+      <PackagePath>Images\12.jpg</PackagePath>
+      <Modified>2015-12-06T11:32:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\12c.jpg">
+      <PackagePath>Images\12c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\13.jpg">
+      <PackagePath>Images\13.jpg</PackagePath>
+      <Modified>2015-12-06T11:34:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\13c.jpg">
+      <PackagePath>Images\13c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\14.jpg">
+      <PackagePath>Images\14.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\14c.jpg">
+      <PackagePath>Images\14c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\15.jpg">
+      <PackagePath>Images\15.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\15c.jpg">
+      <PackagePath>Images\15c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\16.jpg">
+      <PackagePath>Images\16.jpg</PackagePath>
+      <Modified>2015-12-06T11:34:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\16c.jpg">
+      <PackagePath>Images\16c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\17c.jpg">
+      <PackagePath>Images\17c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\18.jpg">
+      <PackagePath>Images\18.jpg</PackagePath>
+      <Modified>2015-12-06T11:40:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\18c.jpg">
+      <PackagePath>Images\18c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\19c.jpg">
+      <PackagePath>Images\19c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\1b.jpg">
+      <PackagePath>Images\1b.jpg</PackagePath>
+      <Modified>2015-12-05T11:17:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\1c.jpg">
+      <PackagePath>Images\1c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\2.jpg">
+      <PackagePath>Images\2.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\20.jpg">
+      <PackagePath>Images\20.jpg</PackagePath>
+      <Modified>2015-12-05T11:23:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\20c.jpg">
+      <PackagePath>Images\20c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\21c.jpg">
+      <PackagePath>Images\21c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\22c.jpg">
+      <PackagePath>Images\22c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\23c.jpg">
+      <PackagePath>Images\23c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\24c.jpg">
+      <PackagePath>Images\24c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\25c.jpg">
+      <PackagePath>Images\25c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\26c.jpg">
+      <PackagePath>Images\26c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\27c.jpg">
+      <PackagePath>Images\27c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\28c.jpg">
+      <PackagePath>Images\28c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\29c.jpg">
+      <PackagePath>Images\29c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\2b.jpg">
+      <PackagePath>Images\2b.jpg</PackagePath>
+      <Modified>2015-12-05T11:17:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\2c.jpg">
+      <PackagePath>Images\2c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\3.jpg">
+      <PackagePath>Images\3.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\30c.jpg">
+      <PackagePath>Images\30c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\31c.jpg">
+      <PackagePath>Images\31c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\32c.jpg">
+      <PackagePath>Images\32c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\33c.jpg">
+      <PackagePath>Images\33c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\34c.jpg">
+      <PackagePath>Images\34c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\35c.jpg">
+      <PackagePath>Images\35c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\36c.jpg">
+      <PackagePath>Images\36c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\37c.jpg">
+      <PackagePath>Images\37c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\38c.jpg">
+      <PackagePath>Images\38c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\39c.jpg">
+      <PackagePath>Images\39c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\3b.jpg">
+      <PackagePath>Images\3b.jpg</PackagePath>
+      <Modified>2015-12-05T11:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\3c.jpg">
+      <PackagePath>Images\3c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\4.jpg">
+      <PackagePath>Images\4.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\40c.jpg">
+      <PackagePath>Images\40c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\41c.jpg">
+      <PackagePath>Images\41c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\42c.jpg">
+      <PackagePath>Images\42c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\43c.jpg">
+      <PackagePath>Images\43c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\44c.jpg">
+      <PackagePath>Images\44c.jpg</PackagePath>
+      <Modified>2015-12-05T06:17:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\4c.jpg">
+      <PackagePath>Images\4c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\5.jpg">
+      <PackagePath>Images\5.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\5c.jpg">
+      <PackagePath>Images\5c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\6.jpg">
+      <PackagePath>Images\6.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\6c.jpg">
+      <PackagePath>Images\6c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\7.jpg">
+      <PackagePath>Images\7.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\7c.jpg">
+      <PackagePath>Images\7c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\8.jpg">
+      <PackagePath>Images\8.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\8c.jpg">
+      <PackagePath>Images\8c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\9.jpg">
+      <PackagePath>Images\9.jpg</PackagePath>
+      <Modified>2015-12-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\9c.jpg">
+      <PackagePath>Images\9c.jpg</PackagePath>
+      <Modified>2015-12-05T04:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Video\apple.mp4">
+      <PackagePath>Video\apple.mp4</PackagePath>
+      <Modified>2015-12-07T05:31:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2015-11-29T01:41:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2015-12-05T12:35:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\Computer.xaml">
+      <PackagePath>Pages\Computer.xaml</PackagePath>
+      <Modified>2015-12-05T11:33:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\Game.xaml">
+      <PackagePath>Pages\Game.xaml</PackagePath>
+      <Modified>2015-12-06T11:48:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\ItemDtail.xaml">
+      <PackagePath>Pages\ItemDtail.xaml</PackagePath>
+      <Modified>2015-12-07T04:41:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\MainPage.xaml">
+      <PackagePath>Pages\MainPage.xaml</PackagePath>
+      <Modified>2015-12-07T12:23:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\MobiePhone.xaml">
+      <PackagePath>Pages\MobiePhone.xaml</PackagePath>
+      <Modified>2015-12-06T11:49:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\Video.xaml">
+      <PackagePath>Pages\Video.xaml</PackagePath>
+      <Modified>2015-12-07T05:32:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Style\myDictionary.xaml">
+      <PackagePath>Style\myDictionary.xaml</PackagePath>
+      <Modified>2015-12-07T05:28:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-12-07T05:32:48.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

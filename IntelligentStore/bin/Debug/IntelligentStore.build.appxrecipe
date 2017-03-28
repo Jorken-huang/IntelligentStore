@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-VTCFTIJ</Machine>
+    <WindowsUser>Admin</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\IntelligentStore.exe">
+      <PackagePath>IntelligentStore.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\IntelligentStore.pdb">
+      <PackagePath>IntelligentStore.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\bg.png">
+      <PackagePath>Images\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\1.jpg">
+      <PackagePath>Images\1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\10.jpg">
+      <PackagePath>Images\10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\10c.jpg">
+      <PackagePath>Images\10c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\11.jpg">
+      <PackagePath>Images\11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\11c.jpg">
+      <PackagePath>Images\11c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\12.jpg">
+      <PackagePath>Images\12.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\12c.jpg">
+      <PackagePath>Images\12c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\13.jpg">
+      <PackagePath>Images\13.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\13c.jpg">
+      <PackagePath>Images\13c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\14.jpg">
+      <PackagePath>Images\14.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\14c.jpg">
+      <PackagePath>Images\14c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\15.jpg">
+      <PackagePath>Images\15.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\15c.jpg">
+      <PackagePath>Images\15c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\16.jpg">
+      <PackagePath>Images\16.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\16c.jpg">
+      <PackagePath>Images\16c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\17c.jpg">
+      <PackagePath>Images\17c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\18.jpg">
+      <PackagePath>Images\18.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\18c.jpg">
+      <PackagePath>Images\18c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\19c.jpg">
+      <PackagePath>Images\19c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\1b.jpg">
+      <PackagePath>Images\1b.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\1c.jpg">
+      <PackagePath>Images\1c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\2.jpg">
+      <PackagePath>Images\2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\20.jpg">
+      <PackagePath>Images\20.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\20c.jpg">
+      <PackagePath>Images\20c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\21c.jpg">
+      <PackagePath>Images\21c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\22c.jpg">
+      <PackagePath>Images\22c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\23c.jpg">
+      <PackagePath>Images\23c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\24c.jpg">
+      <PackagePath>Images\24c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\25c.jpg">
+      <PackagePath>Images\25c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\26c.jpg">
+      <PackagePath>Images\26c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\27c.jpg">
+      <PackagePath>Images\27c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\28c.jpg">
+      <PackagePath>Images\28c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\29c.jpg">
+      <PackagePath>Images\29c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\2b.jpg">
+      <PackagePath>Images\2b.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\2c.jpg">
+      <PackagePath>Images\2c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\3.jpg">
+      <PackagePath>Images\3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\30c.jpg">
+      <PackagePath>Images\30c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\31c.jpg">
+      <PackagePath>Images\31c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\32c.jpg">
+      <PackagePath>Images\32c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\33c.jpg">
+      <PackagePath>Images\33c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\34c.jpg">
+      <PackagePath>Images\34c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\35c.jpg">
+      <PackagePath>Images\35c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\36c.jpg">
+      <PackagePath>Images\36c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\37c.jpg">
+      <PackagePath>Images\37c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\38c.jpg">
+      <PackagePath>Images\38c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\39c.jpg">
+      <PackagePath>Images\39c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\3b.jpg">
+      <PackagePath>Images\3b.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\3c.jpg">
+      <PackagePath>Images\3c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\4.jpg">
+      <PackagePath>Images\4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\40c.jpg">
+      <PackagePath>Images\40c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\41c.jpg">
+      <PackagePath>Images\41c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\42c.jpg">
+      <PackagePath>Images\42c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\43c.jpg">
+      <PackagePath>Images\43c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\44c.jpg">
+      <PackagePath>Images\44c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\4c.jpg">
+      <PackagePath>Images\4c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\5.jpg">
+      <PackagePath>Images\5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\5c.jpg">
+      <PackagePath>Images\5c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\6.jpg">
+      <PackagePath>Images\6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\6c.jpg">
+      <PackagePath>Images\6c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\7.jpg">
+      <PackagePath>Images\7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\7c.jpg">
+      <PackagePath>Images\7c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\8.jpg">
+      <PackagePath>Images\8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\8c.jpg">
+      <PackagePath>Images\8c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\9.jpg">
+      <PackagePath>Images\9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Images\9c.jpg">
+      <PackagePath>Images\9c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\Video\apple.mp4">
+      <PackagePath>Video\apple.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\Computer.xaml">
+      <PackagePath>Pages\Computer.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\Game.xaml">
+      <PackagePath>Pages\Game.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\ItemDtail.xaml">
+      <PackagePath>Pages\ItemDtail.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\MainPage.xaml">
+      <PackagePath>Pages\MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\MobiePhone.xaml">
+      <PackagePath>Pages\MobiePhone.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Pages\Video.xaml">
+      <PackagePath>Pages\Video.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\Style\myDictionary.xaml">
+      <PackagePath>Style\myDictionary.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\大三\IntelligentStore\IntelligentStore\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

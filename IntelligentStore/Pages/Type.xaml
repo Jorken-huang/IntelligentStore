@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="IntelligentStore.Pages.Type"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IntelligentStore.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+           <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0,0,40,0">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="游戏" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="社交" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="娱乐" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="照片" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="运动" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="购物" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="教育" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="金融" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="新闻天气" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="音乐视频" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="健康饮食" FontSize="25"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="学习图书" FontSize="25"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="IntelligentStore.Pages.ItemDtail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IntelligentStore.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource pageBackgroundColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:ConnectionId='1' x:Name="btnBack" Style="{StaticResource PreviousAppBarButtonStyle}" 
+                Grid.Row="0" Grid.Column="0" Margin="15,22,15,0"                      />
+        <TextBlock Style="{StaticResource txtHeader}" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" FontSize="40" x:Name="txtName"/>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+        <Image Width="460" Height="250" x:Name="imgMsg" HorizontalAlignment="Left"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Style="{StaticResource txtItem}"  x:Name="txtPlice" Grid.Column="1" FontSize="30"/>
+                <Button x:Name="btnStop" Style="{StaticResource btnPage}" 
+                Content="购买" Grid.Column="0"/>                
+            </Grid>
+            <TextBlock Style="{StaticResource txtItem}"  x:Name="txtDesc" Width="200" HorizontalAlignment="Left"/>        
+        </StackPanel>
+        
+        <!--图片浏览器-->
+        <ListView x:Name="lstItem" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="2">
+        </ListView>
+        <FlipView x:Name="fvItem" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="3"
+                   SelectedIndex="{Binding SelectedIndex,ElementName=lstItem,Mode=TwoWay}" Width="900" Height="600">
+        </FlipView>
+    </Grid>
+    <Page.BottomAppBar>
+        <AppBar>
+            <Grid Background="Firebrick" HorizontalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:ConnectionId='2' x:Name="AppButton" Style="{StaticResource HomeAppBarButtonStyle}"
+                            AutomationProperties.Name="主页"                        />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+

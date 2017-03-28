@@ -1,0 +1,88 @@
+﻿<Page
+    x:Class="IntelligentStore.Pages.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IntelligentStore.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ScrollViewer x:Name="svPage" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Disabled"
+                  HorizontalScrollMode="Enabled" VerticalScrollMode="Disabled">
+    <Grid Background="{StaticResource pageBackgroundColor}" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="420"/>
+            <ColumnDefinition Width="280"/>
+            <ColumnDefinition Width="1100"/>
+            <ColumnDefinition Width="1100"/>
+            <ColumnDefinition Width="450"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="电子商店" Style="{StaticResource txtStyle}" Margin="50,0,0,0"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="软件简介" Style="{StaticResource txtHeader}" Margin="50,0,0,0"/>
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="热门分类" Style="{StaticResource txtHeader}" HorizontalAlignment="Center"/>
+            <HyperlinkButton x:Name="btnComputer" Grid.Row="1" Grid.Column="2" Content="电脑>" Style="{StaticResource hlButton}" Click="btnComputer_Click"/>
+            <HyperlinkButton x:Name="btnPhone" Grid.Row="1" Grid.Column="3" Content="手机>" Style="{StaticResource hlButton}" Click="btnPhone_Click"/>
+            <HyperlinkButton x:Name="btnGame" Grid.Row="1" Grid.Column="4" Content="游戏>" Style="{StaticResource hlButton}" Click="btnGame_Click"/>
+            <!--简介图片和视频-->
+            <StackPanel Grid.Row="2" Grid.Column="0" Margin="50,0,0,0">
+                <Frame x:Name="videoFrame"/>
+            </StackPanel>
+            <!--分类导航-->
+            <StackPanel Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <HyperlinkButton Content="音乐影视" Style="{StaticResource hlType}"/>
+                <HyperlinkButton Content="高效办公" Style="{StaticResource hlType}"/>
+                <HyperlinkButton Content="教育学习" Style="{StaticResource hlType}"/>
+                <HyperlinkButton Content="社交旅游" Style="{StaticResource hlType}"/>
+                <HyperlinkButton Content="新闻天气" Style="{StaticResource hlType}"/>
+            </StackPanel>
+            <!--电脑数据列表-->
+            <GridView x:Name="gvComputer" VerticalAlignment="Top" Grid.Row="2" Grid.Column="2" 
+                  Style="{StaticResource gvItem}"
+                  ItemContainerStyle="{StaticResource containerStyle}"
+                  ItemTemplate="{StaticResource dataItemTemplate}" SelectionChanged="gvComputer_SelectionChanged">
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapGrid Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+            </GridView>
+            <!--手机数据列表-->
+            <GridView x:Name="gvPhone" VerticalAlignment="Top" Grid.Row="2" Grid.Column="3" 
+                  Style="{StaticResource gvItem}"
+                  ItemContainerStyle="{StaticResource containerStyle}"
+                  ItemTemplate="{StaticResource dataItemTemplate}" SelectionChanged="gvPhone_SelectionChanged">
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapGrid Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+            </GridView>
+            <!--游戏数据列表-->
+            <GridView x:Name="gvGame" VerticalAlignment="Top" Grid.Row="2" Grid.Column="4" 
+                  Style="{StaticResource gvItem}"
+                  ItemContainerStyle="{StaticResource containerStyle}"
+                  ItemTemplate="{StaticResource dataItemTemplate}" SelectionChanged="gvGame_SelectionChanged">
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapGrid Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+            </GridView>
+    </Grid>
+    </ScrollViewer>
+    <Page.BottomAppBar>
+        <AppBar>
+            <Grid Background="Firebrick" HorizontalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:Name="AppButton" Style="{StaticResource ClosePaneAppBarButtonStyle}"
+                            AutomationProperties.Name="关闭" Click="AppButton_Click"/>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
